@@ -1,0 +1,22 @@
+.block{
+    position: absolute;
+    width: 545px;
+    height: 551px;
+    left: calc(50% - 545px/2 + 0.5px);
+    top: calc(50% - 551px/2 + 30.5px);
+
+    background: #C8E7EE;
+}
+
+.blue{
+    background: #A0CED9;
+}
+
+#logo{
+    height: 100px;
+    width: 100px;
+}
+
+.tblock{
+   
+}
