@@ -1,0 +1,45 @@
+body {
+  background-color: #FFFFEA;
+}
+
+.container {
+  margin: 50px auto;
+  max-width: 1200px;
+  background-color: #C8E7EE;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.image-container {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  margin-right: 50px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.description {
+  width: 50%;
+}
+
+.description h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.description p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #333;
+}
+
