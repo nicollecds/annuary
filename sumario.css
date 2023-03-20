@@ -1,0 +1,45 @@
+.summary {
+  background-color: #C8E7EE;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: 0 auto;
+}
+
+.summary h2 {
+  text-align: center;
+  color: #333;
+}
+
+.summary ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.summary li {
+  margin-bottom: 10px;
+}
+
+.summary a {
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #FFFFEA;
+  color: #333;
+  text-decoration: none;
+}
+
+.summary a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.content {
+  margin-top: 50px;
+}
+
+.content h2 {
+  margin-top: 0;
+}
