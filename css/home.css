@@ -2,6 +2,15 @@ body {
   background-color: #FFFFEA;
 }
 
+.blue{
+  background: #A0CED9;
+}
+
+#logo{
+  height: 100px;
+  width: 100px;
+}
+
 .container {
   margin: 50px auto;
   max-width: 1200px;
@@ -38,7 +47,7 @@ body {
   display: block;
   padding: 10px 20px;
   font-size: 1.2rem;
-  color: #333;
+  color: #008CBA;
   text-decoration: none;
   border: 1px solid #333;
   border-radius: 5px;
@@ -46,7 +55,7 @@ body {
 }
 
 .profile-link:hover {
-  background-color: #333;
+  background-color: #006F8F;
   color: #fff;
 }
 

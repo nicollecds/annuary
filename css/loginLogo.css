@@ -1,15 +1,43 @@
+body{
+  background-color:#FFFFEA;
+}
+
+.blue{
+  background: #A0CED9;
+}
+
+#logo{
+  height: 100px;
+  width: 100px;
+}
+
 .page {
+  margin: 50px auto;
+  max-width: 400px;
   background-color: #C8E7EE;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  width: 300px;
-  margin: 0 auto;
+  
+}
+
+.logo {
+  margin-bottom: 20px;
   text-align: center;
 }
 
+.logo img {
+  max-width: 100%;
+}
+
 .page h2 {
+  text-align: center;
   color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
 }
 
 .form label {
@@ -18,7 +46,7 @@
   color: #333;
 }
 
-.form input[type="email"],
+.form input[type="text"],
 .form input[type="password"] {
   width: 100%;
   padding: 10px;
@@ -28,7 +56,7 @@
 }
 
 .form input[type="submit"] {
-  background-color: #333;
+  background-color: #008CBA;
   color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
@@ -37,5 +65,7 @@
 }
 
 .form input[type="submit"]:hover {
-  background-color: #666;
+  background-color: #006F8F;
 }
+
+
