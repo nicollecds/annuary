@@ -1,0 +1,13 @@
+Observações: 
+- Anuário geral (para universidade tb ou ensino médio?)
+- O que é BC?
+- Botão de cadastro no login (ok será o adm)
+- QUem é o adm?
+- Acho que evento e viagens muito específico 
+- Página aluno ... só as fotinhas e clica e abre o modal
+- Perfil : onde cadastra a citação? onde vai aparecer para todo mundo essa parte do experiência e destaques?
+
+- Uma parte administrativa para vocês... 
+- Dentro de turma deve gerenciar tudo sobre a turma... alunos, evento, viagens... E aí tem que ter a opção de cadastrar, listar, alterar e excluir cada uma dessas informações. 
+
+Excluir turma editar turma?
