@@ -37,4 +37,6 @@ O projeto pode ser usado por uma instituição que deseja preservar de forma dig
 Créditos:
 Referências utilizadas: Bootstrap, https://arthurporto.notion.site/arthurporto/WEB-0f7b6a98902b449ebf69a95b4a24bcea 
 
+Licença: 
+Softwaree Proprietário, qualquer cópia, redistribuição ou alteração é proibida. Caso descumpridos os termos impostos no contrato aceito pelo usuário, a desenvolvedora pode tomar medidas judiciais. Para contornar as limitações, é preciso contatar o desenvolvedor e solicitar novas permissões.
 
