@@ -9,29 +9,29 @@
 </head>
   
 <body>
-    <header>
-      <div class="logo">
-        <img src="images/logo.png" alt="Logo do Anuário" id="logo">
-      </div>
-      <h1>Anuário</h1>
-      <nav>
-        <ul>
-          <li><a href="home.html">Turma</a></li>
-          <li><a href="alunos.html">Alunos</a></li>
-          <li><a href="evento.html">Eventos</a></li>
-        </ul>
-      </nav>
-    </header>
-	<form>
-		<label for="name">Nome:</label>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo do Anuário" id="logo">
+    </div>
+    <h1>Anuário</h1>
+    <nav>
+      <ul>
+        <li><a href="admturmas.html">Turmas</a></li>
+        <li><a href="admalunos.html">Alunos</a></li>
+        <li><a href="admevento.html">Eventos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <form class="form page">
+    <label for="name">Nome:</label>
 		<input type="text" id="name" name="name" placeholder="Insira o nome aqui">
 
-		<label for="start-year">Citação:</label>
-		<input type="text" id="start-year" name="start-year" placeholder="Insira a citação aqui">
+		<label for="cit">Citação:</label>
+		<input type="text" id="cit" name="cit" placeholder="Insira a citação aqui">
 
-		<input type="submit" value="Cadastrar">
-    <br><br><br><br>
-	</form>
+    <a href="admalunos.html"><input type="button" value="Cadastrar"></a>
+  </form>
     <footer>
         <p>&copy; 2023 Backstreet Ifanos</p>
     </footer>

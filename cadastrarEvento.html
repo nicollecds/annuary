@@ -9,32 +9,33 @@
 </head>
   
 <body>
-    <header>
-      <div class="logo">
-        <img src="images/logo.png" alt="Logo do Anuário" id="logo">
-      </div>
-      <h1>Anuário</h1>
-      <nav>
-        <ul>
-          <li><a href="home.html">Turma</a></li>
-          <li><a href="alunos.html">Alunos</a></li>
-          <li><a href="evento.html">Eventos</a></li>
-        </ul>
-      </nav>
-    </header>
-	<form>
-		<label for="name">Título do Evento:</label>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo do Anuário" id="logo">
+    </div>
+    <h1>Anuário</h1>
+    <nav>
+      <ul>
+        <li><a href="admturmas.html">Turmas</a></li>
+        <li><a href="admalunos.html">Alunos</a></li>
+        <li><a href="admevento.html">Eventos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <form class="form page">
+    <label for="name">Título do Evento:</label>
 		<input type="text" id="name" name="name" placeholder="Insira o título do evento aqui">
 
-		<label for="start-year">Descrição:</label>
-		<input type="text" id="start-year" name="start-year" placeholder="Insira a descrição aqui">
+    <label for="desc">Descrição:</label>
+		<input type="text" id="desc" name="desc" placeholder="Insira a descrição aqui">
 
 		<label for="img-evento">Foto do Evento:</label>
 		<input type="image" id="img-evento" name="img-evento">
 
-		<input type="submit" value="Cadastrar">
-    <br><br><br><br>
-	</form>
+    <a href="admevento.html"><input type="button" value="Cadastrar"></a>
+</form>
+
     <footer>
         <p>&copy; 2023 Backstreet Ifanos</p>
       </footer>
