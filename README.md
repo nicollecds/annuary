@@ -26,7 +26,7 @@ Desafios enfrentados no desenvolvimento:
 O uso de banco de dados, o que fez com que tivéssemos que deixar o projeto sem isso, ficando, dessa forma, incompleto.
 
 Link para o endereço da página onde o projeto publicado:
-
+https://bc-records-annuary.netlify.app/
 
 Como instalar e executar o projeto
 O projeto é de acesso exclusivo em web browser. 
