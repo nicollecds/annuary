@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Eventos</title>
+    <link href="css/header.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="css/evento.css">
     <link rel="icon" type="image/ico+xml" href="images/favicon.ico" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -10,50 +11,41 @@
   <body>
 
     <header>
-      <div class="row d-flex blue">
-          <div class="row d-flex align-items-center mt-2">
-              <div class="col-1 m-4">
-                  <img src="images/logo.png" alt="" id="logo">
-              </div>
-              <div class="col text-white text-md-start mt-4 mb-4">
-                  <h1>Anuário</h1>
-              </div>
-          </div>
-          <div>
-            <div class="container-fluid">
-                <nav class="navbar navbar-expand-lg">
-                  <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                          <a class="nav-link"  href="home.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="alunos.html">Alunos</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="evento.html">Eventos</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </nav>
-            </div>
-        </div>
+      <div class="logo">
+        <img src="images/logo.png" alt="Logo do Anuário" id="logo">
       </div>
+      <h1>Anuário</h1>
+      <nav>
+        <ul>
+          <li><a href="home.html">Turma</a></li>
+          <li><a href="alunos.html">Alunos</a></li>
+          <li><a href="evento.html">Eventos</a></li>
+        </ul>
+      </nav>
     </header>
 
     <div class="container">
       <div class="image-container">
-        <img src="https://via.placeholder.com/400x400" alt="Imagem Média">
+        <img src="images/turma.jpg" alt="Imagem Média">
       </div>
       <div class="description">
-        <h2>Título do evento</h2>
-        <p>Descrição do evento...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel quam et turpis venenatis mollis sit amet quis libero. Nulla facilisi. Pellentesque ut nisi sem. </p>
+        <h2>Pintura dos Formandos</h2>
+        <p>Seguindo a tradição de pintura dos alunos aprovados em faculdades. </p>
       </div>
     </div>
+
+    <div class="container">
+      <div class="image-container">
+        <img src="images/geografia.jpg" alt="Imagem Média">
+      </div>
+      <div class="description">
+        <h2>IF Mundo</h2>
+        <p> Apresentação do trabalho de Geografia IF-MUNDO cujo tema da turma foi Alemanha. </p>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 Backstreet Ifanos</p>
+    </footer>
   </body>
 </html>

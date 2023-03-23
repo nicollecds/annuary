@@ -55,7 +55,7 @@ form {
   border: none;
 }
 
-.form input[type="submit"] {
+.form input[type="button"] {
   background-color: #008CBA;
   color: #fff;
   padding: 10px 20px;
@@ -64,7 +64,7 @@ form {
   cursor: pointer;
 }
 
-.form input[type="submit"]:hover {
+.form input[type="button"]:hover {
   background-color: #006F8F;
 }
 

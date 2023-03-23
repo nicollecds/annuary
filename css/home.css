@@ -27,9 +27,6 @@ body {
 }
 
 .profile-picture {
-  height: 400px;
-  width: 1200px;
-  overflow: hidden;
   margin-bottom: 30px;
 }
 
